@@ -1,9 +1,6 @@
 package com.craftinginterpreters.lox;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static com.craftinginterpreters.lox.TokenType.*;
 
@@ -101,7 +98,10 @@ class Scanner {
                 if (match('/')) {
                     // A comment goes until the end of the line.
                     while (peek() != '\n' && !isAtEnd()) advance();
-                } else {
+                } else if(match('*')){
+                    cStyleComment();
+                }
+                else {
                     addToken(SLASH);
                 }
                 break;
@@ -168,6 +168,44 @@ class Scanner {
     private char peekNext() {
         if (current + 1 >= source.length()) return '\0';
         return source.charAt(current + 1);
+    }
+
+    //allow nest
+    private void cStyleComment(){
+
+        Stack<Integer> s = new Stack<Integer>();
+        s.push(0);
+
+        while (!isAtEnd()){
+            if(s.isEmpty())
+                break;
+            if(peek() == '*' && peekNext() == '/')
+                s.pop();
+            else if(peek() == '/' && peekNext() == '*')
+                s.push(0);
+            else
+            {
+                if(peek() == '\n')
+                    line++;
+            }
+            advance();
+        }
+
+//        while(peek() != '*' && peekNext() != '/' && !isAtEnd() ){
+//            if(peek() == '\n')
+//                line++;
+//            advance();
+//        }
+
+        // Unterminated string.
+        if (isAtEnd()) {
+            Lox.error(line, "Unclosed Comment.");
+            return;
+        }
+
+        // jump */
+        advance();
+        advance();
     }
 
     //Lox supports multi-line strings
