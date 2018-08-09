@@ -5,6 +5,8 @@ import java.util.List;
 import static com.craftinginterpreters.lox.TokenType.*;
 
 //expression → equality ;
+// change to (comma exp) =>  expression → equality (,equality)* ; //todo add ternary
+
 //equality → comparison ( ( "!=" | "==" ) comparison )* ;
 //comparison → addition ( ( ">" | ">=" | "<" | "<=" ) addition )* ;
 //addition → multiplication ( ( "-" | "+" ) multiplication )* ;
@@ -32,7 +34,15 @@ class Parser {
     }
 
     private Expr expression() {
-        return equality();
+        Expr expr = equality();
+
+        while(match(COMMA)){
+            Token operator = previous();
+            Expr right = equality();
+            expr = new Expr.Binary(expr,operator,right);
+        }
+
+        return expr;
     }
 
     private Expr equality() {
