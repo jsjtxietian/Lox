@@ -1,5 +1,7 @@
 #ReadMe
 
+## todo
+
 * 增加对于三目运算符的支持 : ?
 
 * 增加对于break的支持 ———— 异常
@@ -21,4 +23,6 @@
   
   ```
 
-  
+* Extend the resolver to report an error if a local variable is never used. 
+
+* Extend the resolver to associate a unique index for each local variable declared in a scope. When resolving a variable access, look up both the scope the variable is in and its index and store that. In the interpreter, use that to quickly access a variable by its index instead of using a map. 
