@@ -1,10 +1,12 @@
-var a = "global";
-{
-  fun showA() {
-    print a;
+class F {
+  init(){
+    this.fuck = "fuck yoy";
   }
 
-  showA();
-  var a = "block";
-  showA();
+  Duck(){
+    print(this.fuck);
+  }
 }
+
+var s = F();
+s.Duck();
