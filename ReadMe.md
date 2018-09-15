@@ -30,3 +30,8 @@
 *  “static” methods that can be called directly on the class object itself
 
 * “getters” and “setters”
+
+*  mixins, traits, multiple inheritance, virtual inheritance, extension methods, etc
+
+* When calling a method on a class, prefer the method highest on the class’s inheritance chain. Inside the body of a method, a call to inner looks for a method with the same name in the nearest subclass along the inheritance chain between the class containing the inner and the class of this. If there is no matching method, the inner call does nothing.
+
