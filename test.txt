@@ -1,17 +1,15 @@
-class Doughnut {
-  cook() {
-    print "Fry until golden brown.";
-  }
+var x = 1;
+var y = 2;
+
+while(y != 0){
+    x = x + 1;
+
+    if(y == 2){
+        break;
+    }
+
+    y = y - 1;
 }
 
-class BostonCream < Doughnut {
-  cook() {
-    super.cook();
-    print "Pipe full of custard and coat with chocolate.";
-  }
-}
 
-BostonCream().cook();
-// Prints:
-// Fry until golden brown.
-// Pipe full of custard and coat with chocolate.
+print x;

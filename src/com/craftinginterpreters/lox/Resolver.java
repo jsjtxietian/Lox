@@ -29,7 +29,7 @@ class Resolver implements Expr.Visitor<Void>, Stmt.Visitor<Void> {
     }
 
     private ClassType currentClass = ClassType.NONE;
-
+    private int LoopNum = 0;
 
     @Override
     public Void visitThisExpr(Expr.This expr) {
@@ -52,6 +52,14 @@ class Resolver implements Expr.Visitor<Void>, Stmt.Visitor<Void> {
         return null;
     }
 
+    public Void visitBreakStmt(Stmt.Break stmt){
+        if(LoopNum <= 0)
+        {
+            Lox.error(stmt.keyword,
+                    "Cannot have a break statement appear outside of any enclosing loop");
+        }
+        return null;
+    }
 
     private void beginScope() {
         scopes.push(new HashMap<String, Boolean>());
@@ -239,8 +247,10 @@ class Resolver implements Expr.Visitor<Void>, Stmt.Visitor<Void> {
 
     @Override
     public Void visitWhileStmt(Stmt.While stmt) {
+        LoopNum ++;
         resolve(stmt.condition);
         resolve(stmt.body);
+        LoopNum--;
         return null;
     }
 

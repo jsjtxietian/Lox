@@ -9,6 +9,7 @@ abstract class Stmt {
     R visitExpressionStmt(Expression stmt);
     R visitFunctionStmt(Function stmt);
     R visitPrintStmt(Print stmt);
+    R visitBreakStmt(Break stmt);
     R visitReturnStmt(Return stmt);
     R visitVarStmt(Var stmt);
     R visitWhileStmt(While stmt);
@@ -76,6 +77,17 @@ abstract class Stmt {
     }
 
     final Expr expression;
+  }
+  static class Break extends Stmt {
+    Break(Token keyword) {
+      this.keyword = keyword;
+    }
+
+    <R> R accept(Visitor<R> visitor) {
+      return visitor.visitBreakStmt(this);
+    }
+
+    final Token keyword;
   }
   static class Return extends Stmt {
     Return(Token keyword, Expr value) {

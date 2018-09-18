@@ -31,8 +31,10 @@ import static com.craftinginterpreters.lox.TokenType.*;
 //        | returnStmt
 //        | whileStmt
 //        | forStmt
+//        | breakStmt
 //        | block ;
 
+//breakStmt → "break" ;
 //returnStmt → "return" expression? ";" ;
 //ifStmt    → "if" "(" expression ")" statement ( "else" statement )? ;
 //block     → "{" declaration* "}" ;
@@ -206,10 +208,17 @@ class Parser {
         if (match(FOR)) return forStatement();
         if (match(PRINT)) return printStatement();
         if (match(RETURN)) return returnStatement();
+        if(match(BREAK)) return breakStatement();
         if (match(LEFT_BRACE)) return new Stmt.Block(block());
         if (match(WHILE)) return whileStatement();
         if (match(IF)) return ifStatement();
         return expressionStatement();
+    }
+
+    private Stmt breakStatement(){
+        Token keyword = previous();
+        consume(SEMICOLON, "Expect ';' after return break.");
+        return new Stmt.Break(keyword);
     }
 
     private Stmt returnStatement() {
