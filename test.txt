@@ -1,15 +1,10 @@
-var x = 1;
-var y = 2;
-
-while(y != 0){
-    x = x + 1;
-
-    if(y == 2){
-        break;
+{
+    class Foo {
+      init() {
+        print this;
+      }
     }
 
-    y = y - 1;
+    var a =  1;
+
 }
-
-
-print x;
