@@ -1,7 +1,5 @@
 package com.craftinginterpreters.lox;
 
-import java.awt.*;
-import java.io.Console;
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
