@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ea9edd4-9f14-456a-8064-6460229ec18b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7ea9edd4-9f14-456a-8064-6460229ec18b" name="Default" comment="part one over ; &#10;do some exercises from now on">
       <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
@@ -20,8 +20,8 @@
       <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="-616">
+              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#function#0;class#Parser#0" />
@@ -49,15 +49,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Expr.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Expr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2486">
-              <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GenerateAst.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/tool/GenerateAst.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Resolver.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Resolver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
+            <state relative-caret-position="312">
+              <caret line="333" column="5" lean-forward="true" selection-start-line="333" selection-start-column="5" selection-end-line="333" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#FunctionType#0;class#Resolver#0" />
@@ -82,11 +73,11 @@
                 <element signature="method#visitThisExpr#0;class#Resolver#0" />
                 <element signature="method#visitBlockStmt#0;class#Resolver#0" />
                 <element signature="method#visitBreakStmt#0;class#Resolver#0" />
+                <element signature="e#1498#1499#0" expanded="true" />
+                <element signature="e#1557#1558#0" expanded="true" />
                 <element signature="method#visitFunctionStmt#0;class#Resolver#0" />
                 <element signature="method#visitExpressionStmt#0;class#Resolver#0" />
                 <element signature="method#visitIfStmt#0;class#Resolver#0" />
-                <element signature="method#visitClassStmt#0;class#Resolver#0" />
-                <element signature="method#visitSuperExpr#0;class#Resolver#0" />
                 <element signature="method#visitGetExpr#0;class#Resolver#0" />
                 <element signature="method#visitSetExpr#0;class#Resolver#0" />
                 <element signature="method#visitPrintStmt#0;class#Resolver#0" />
@@ -99,8 +90,6 @@
                 <element signature="method#visitGroupingExpr#0;class#Resolver#0" />
                 <element signature="method#visitLogicalExpr#0;class#Resolver#0" />
                 <element signature="method#visitUnaryExpr#0;class#Resolver#0" />
-                <element signature="method#resolveLocal#0;class#Resolver#0" />
-                <element signature="method#resolve#0;class#Resolver#0" />
                 <element signature="e#8553#8554#0" expanded="true" />
                 <element signature="e#8586#8587#0" expanded="true" />
                 <element signature="e#8625#8626#0" expanded="true" />
@@ -113,8 +102,8 @@
       <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+            <state relative-caret-position="374">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Interpreter#0;class#Interpreter#0" />
@@ -150,8 +139,8 @@
       <file leaf-file-name="Break.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Break.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="88">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -159,8 +148,8 @@
       <file leaf-file-name="LoxClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="154">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,16 +161,7 @@
         <entry file="file://$PROJECT_DIR$/test.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReadMe.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -200,6 +180,10 @@
       <find>Set</find>
       <find>Super</find>
       <find>end</find>
+      <find>push</find>
+      <find>this</find>
+      <find>inter</find>
+      <find>warn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -220,16 +204,16 @@
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Lox.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxInstance.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxFunction.java" />
-        <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/TokenType.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Scanner.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/tool/GenerateAst.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Break.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Parser.java" />
-        <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" />
-        <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
+        <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" />
       </list>
     </option>
   </component>
@@ -264,13 +248,6 @@
               <item name="Lox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="craftinginterpreters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="craftinginterpreters" type="462c0819:PsiDirectoryNode" />
-              <item name="lox" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lox" type="b2602c69:ProjectViewProjectNode" />
@@ -485,10 +462,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003658" side_tool="true" weight="0.32929516" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989027" weight="0.32901555" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963424" visible="true" weight="0.16721672" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49963424" visible="true" weight="0.16721672" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32893288" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32166302" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32166302" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3278328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24945295" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -498,7 +476,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32819384" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -621,7 +598,7 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -670,11 +647,11 @@
             <element signature="method#visitThisExpr#0;class#Resolver#0" />
             <element signature="method#visitBlockStmt#0;class#Resolver#0" />
             <element signature="method#visitBreakStmt#0;class#Resolver#0" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
             <element signature="method#visitFunctionStmt#0;class#Resolver#0" />
             <element signature="method#visitExpressionStmt#0;class#Resolver#0" />
             <element signature="method#visitIfStmt#0;class#Resolver#0" />
-            <element signature="method#visitClassStmt#0;class#Resolver#0" />
-            <element signature="method#visitSuperExpr#0;class#Resolver#0" />
             <element signature="method#visitGetExpr#0;class#Resolver#0" />
             <element signature="method#visitSetExpr#0;class#Resolver#0" />
             <element signature="method#visitPrintStmt#0;class#Resolver#0" />
@@ -687,8 +664,6 @@
             <element signature="method#visitGroupingExpr#0;class#Resolver#0" />
             <element signature="method#visitLogicalExpr#0;class#Resolver#0" />
             <element signature="method#visitUnaryExpr#0;class#Resolver#0" />
-            <element signature="method#resolveLocal#0;class#Resolver#0" />
-            <element signature="method#resolve#0;class#Resolver#0" />
             <element signature="e#8553#8554#0" expanded="true" />
             <element signature="e#8586#8587#0" expanded="true" />
             <element signature="e#8625#8626#0" expanded="true" />
@@ -1080,27 +1055,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/com/craftinginterpreters/lox.java" />
     <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/com/craftinginterpreters/lox/LoxCallable.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Stmt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Return.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1129,13 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Lox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1150,13 +1097,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Expr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2486">
-          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1187,10 +1127,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="method#scanTokens#0;class#Scanner#0" />
+            <element signature="method#isAlpha#0;class#Scanner#0" />
+            <element signature="method#number#0;class#Scanner#0" />
+            <element signature="method#peekNext#0;class#Scanner#0" />
+            <element signature="method#cStyleComment#0;class#Scanner#0" />
+            <element signature="method#string#0;class#Scanner#0" />
+            <element signature="method#peek#0;class#Scanner#0" />
+            <element signature="method#match#0;class#Scanner#0" />
+            <element signature="method#advance#0;class#Scanner#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Stmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="146" column="17" selection-start-line="146" selection-start-column="17" selection-end-line="146" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Expr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+        <state relative-caret-position="374">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Interpreter#0;class#Interpreter#0" />
@@ -1222,45 +1201,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Break.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="method#scanTokens#0;class#Scanner#0" />
-            <element signature="method#isAlpha#0;class#Scanner#0" />
-            <element signature="method#number#0;class#Scanner#0" />
-            <element signature="method#peekNext#0;class#Scanner#0" />
-            <element signature="method#cStyleComment#0;class#Scanner#0" />
-            <element signature="method#string#0;class#Scanner#0" />
-            <element signature="method#peek#0;class#Scanner#0" />
-            <element signature="method#match#0;class#Scanner#0" />
-            <element signature="method#advance#0;class#Scanner#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="-616">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#function#0;class#Parser#0" />
@@ -1287,10 +1231,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Lox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="60" column="37" lean-forward="true" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Break.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
+        <state relative-caret-position="312">
+          <caret line="333" column="5" lean-forward="true" selection-start-line="333" selection-start-column="5" selection-end-line="333" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#FunctionType#0;class#Resolver#0" />
@@ -1298,11 +1273,11 @@
             <element signature="method#visitThisExpr#0;class#Resolver#0" />
             <element signature="method#visitBlockStmt#0;class#Resolver#0" />
             <element signature="method#visitBreakStmt#0;class#Resolver#0" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
             <element signature="method#visitFunctionStmt#0;class#Resolver#0" />
             <element signature="method#visitExpressionStmt#0;class#Resolver#0" />
             <element signature="method#visitIfStmt#0;class#Resolver#0" />
-            <element signature="method#visitClassStmt#0;class#Resolver#0" />
-            <element signature="method#visitSuperExpr#0;class#Resolver#0" />
             <element signature="method#visitGetExpr#0;class#Resolver#0" />
             <element signature="method#visitSetExpr#0;class#Resolver#0" />
             <element signature="method#visitPrintStmt#0;class#Resolver#0" />
@@ -1315,27 +1290,11 @@
             <element signature="method#visitGroupingExpr#0;class#Resolver#0" />
             <element signature="method#visitLogicalExpr#0;class#Resolver#0" />
             <element signature="method#visitUnaryExpr#0;class#Resolver#0" />
-            <element signature="method#resolveLocal#0;class#Resolver#0" />
-            <element signature="method#resolve#0;class#Resolver#0" />
             <element signature="e#8553#8554#0" expanded="true" />
             <element signature="e#8586#8587#0" expanded="true" />
             <element signature="e#8625#8626#0" expanded="true" />
             <element signature="e#8658#8659#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>

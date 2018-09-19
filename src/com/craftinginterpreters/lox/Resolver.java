@@ -193,7 +193,7 @@ class Resolver implements Expr.Visitor<Void>, Stmt.Visitor<Void> {
         }
 
         beginScope();
-        scopes.peek().put("this", VariableState.UNUSED);
+        scopes.peek().put("this", VariableState.USED);
 
         for (Stmt.Function method : stmt.methods) {
             FunctionType declaration = FunctionType.METHOD;
@@ -316,17 +316,21 @@ class Resolver implements Expr.Visitor<Void>, Stmt.Visitor<Void> {
         for (int i = scopes.size() - 1; i >= 0; i--) {
             if (scopes.get(i).containsKey(name.lexeme)) {
                 interpreter.resolve(expr, scopes.size() - 1 - i);
+                System.out.println(scopes.size() - 1 - i);
                 return;
             }
         }
+
 
         // Not found. Assume it is global.
     }
 
     void resolve(List<Stmt> statements) {
+//        beginScope();
         for (Stmt statement : statements) {
             resolve(statement);
         }
+//        endScope();
     }
 
     private void resolve(Expr expr) {

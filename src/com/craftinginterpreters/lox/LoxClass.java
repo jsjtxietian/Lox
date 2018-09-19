@@ -15,7 +15,6 @@ class LoxClass implements LoxCallable{
         this.methods = methods;
     }
 
-
     @Override
     public String toString() {
         return name;

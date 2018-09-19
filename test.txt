@@ -1,10 +1,9 @@
-{
-    class Foo {
-      init() {
-        print this;
-      }
-    }
+class Box {}
 
-    var a =  1;
-
+fun notMethod(argument) {
+  print "called function with " + argument;
 }
+
+var box = Box();
+box.function = notMethod;
+box.function("argument");
