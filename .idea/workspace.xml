@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea9edd4-9f14-456a-8064-6460229ec18b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/AstPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/AstPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Lox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lox/com/craftinginterpreters/lox/Interpreter$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lox/com/craftinginterpreters/lox/Interpreter$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lox/com/craftinginterpreters/lox/Interpreter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lox/com/craftinginterpreters/lox/Interpreter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lox/com/craftinginterpreters/lox/Lox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lox/com/craftinginterpreters/lox/Lox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lox/com/craftinginterpreters/lox/Resolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lox/com/craftinginterpreters/lox/Resolver.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Resolver.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Resolver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="253">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#FunctionType#0;class#Resolver#0" />
@@ -184,7 +181,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
@@ -216,15 +213,6 @@
                 <element signature="e#11285#11286#0" expanded="true" />
                 <element signature="method#checkNumberOperand#0;class#Interpreter#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Expr.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Expr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="163" column="25" lean-forward="true" selection-start-line="163" selection-start-column="25" selection-end-line="163" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -294,12 +282,12 @@
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Break.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Parser.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java" />
-        <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/AstPrinter.java" />
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Lox.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -543,7 +531,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537421846243</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="bug fix ; still bug in class ast printer">
+      <created>1537429956473</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1537429956473</updated>
+    </task>
+    <task id="LOCAL-00018" summary="bug fix ; still bug in class ast printer">
+      <created>1537430631856</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1537430631856</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -632,7 +634,8 @@
     <MESSAGE value="part one over ; &#10;do some exercises from now on" />
     <MESSAGE value="some difficult in unused var" />
     <MESSAGE value="bug fix ; ready to ast printer" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fix ; ready to ast printer" />
+    <MESSAGE value="bug fix ; still bug in class ast printer" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix ; still bug in class ast printer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1187,13 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Expr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -1301,44 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#FunctionType#0;class#Resolver#0" />
-            <element signature="method#visitThisExpr#0;class#Resolver#0" />
-            <element signature="method#visitBlockStmt#0;class#Resolver#0" />
-            <element signature="method#visitBreakStmt#0;class#Resolver#0" />
-            <element signature="method#endScope#0;class#Resolver#0" />
-            <element signature="method#declare#0;class#Resolver#0" />
-            <element signature="method#visitVariableExpr#0;class#Resolver#0" />
-            <element signature="method#visitAssignExpr#0;class#Resolver#0" />
-            <element signature="method#resolveFunction#0;class#Resolver#0" />
-            <element signature="method#visitExpressionStmt#0;class#Resolver#0" />
-            <element signature="method#visitIfStmt#0;class#Resolver#0" />
-            <element signature="method#visitClassStmt#0;class#Resolver#0" />
-            <element signature="method#visitSuperExpr#0;class#Resolver#0" />
-            <element signature="method#visitSetExpr#0;class#Resolver#0" />
-            <element signature="method#visitPrintStmt#0;class#Resolver#0" />
-            <element signature="method#visitReturnStmt#0;class#Resolver#0" />
-            <element signature="method#visitWhileStmt#0;class#Resolver#0" />
-            <element signature="method#visitBinaryExpr#0;class#Resolver#0" />
-            <element signature="method#visitCallExpr#0;class#Resolver#0" />
-            <element signature="e#7497#7498#0" expanded="true" />
-            <element signature="e#7524#7525#0" expanded="true" />
-            <element signature="method#visitGroupingExpr#0;class#Resolver#0" />
-            <element signature="method#visitUnaryExpr#0;class#Resolver#0" />
-            <element signature="method#resolveLocal#0;class#Resolver#0" />
-            <element signature="e#8484#8485#0" expanded="true" />
-            <element signature="e#8517#8518#0" expanded="true" />
-            <element signature="e#8556#8557#0" expanded="true" />
-            <element signature="e#8589#8590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Lox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -1388,6 +1346,51 @@
             <element signature="e#11245#11246#0" expanded="true" />
             <element signature="e#11285#11286#0" expanded="true" />
             <element signature="method#checkNumberOperand#0;class#Interpreter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#FunctionType#0;class#Resolver#0" />
+            <element signature="method#visitThisExpr#0;class#Resolver#0" />
+            <element signature="method#visitBlockStmt#0;class#Resolver#0" />
+            <element signature="method#visitBreakStmt#0;class#Resolver#0" />
+            <element signature="method#endScope#0;class#Resolver#0" />
+            <element signature="method#declare#0;class#Resolver#0" />
+            <element signature="method#visitVariableExpr#0;class#Resolver#0" />
+            <element signature="method#visitAssignExpr#0;class#Resolver#0" />
+            <element signature="method#resolveFunction#0;class#Resolver#0" />
+            <element signature="method#visitExpressionStmt#0;class#Resolver#0" />
+            <element signature="method#visitIfStmt#0;class#Resolver#0" />
+            <element signature="method#visitClassStmt#0;class#Resolver#0" />
+            <element signature="method#visitSuperExpr#0;class#Resolver#0" />
+            <element signature="method#visitSetExpr#0;class#Resolver#0" />
+            <element signature="method#visitPrintStmt#0;class#Resolver#0" />
+            <element signature="method#visitReturnStmt#0;class#Resolver#0" />
+            <element signature="method#visitWhileStmt#0;class#Resolver#0" />
+            <element signature="method#visitBinaryExpr#0;class#Resolver#0" />
+            <element signature="method#visitCallExpr#0;class#Resolver#0" />
+            <element signature="e#7497#7498#0" expanded="true" />
+            <element signature="e#7524#7525#0" expanded="true" />
+            <element signature="method#visitGroupingExpr#0;class#Resolver#0" />
+            <element signature="method#visitUnaryExpr#0;class#Resolver#0" />
+            <element signature="method#resolveLocal#0;class#Resolver#0" />
+            <element signature="e#8484#8485#0" expanded="true" />
+            <element signature="e#8517#8518#0" expanded="true" />
+            <element signature="e#8556#8557#0" expanded="true" />
+            <element signature="e#8589#8590#0" expanded="true" />
           </folding>
         </state>
       </provider>
