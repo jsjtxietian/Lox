@@ -2,14 +2,16 @@
 
 ## todo
 
-* 对于全局变量没有beginscope，endscope导致的全局不报错，但是进大括号报错
+* * Extend the resolver to report an error if a local variable is never used.
+    全局变量无法检测
+    对于全局变量没有beginscope，endscope导致的全局不报错，但是进大括号报错
 
   ```js
   var a = 1;
   var a = a ;
   print a;
   ```
-
+  区分了全局变量和非全局，需要把整个程序当成一个scope，但这样又会导致传参等出错。
 
 * 增加对于三目运算符的支持 : ?
 
@@ -29,9 +31,6 @@
   // "3".
   
   ```
-
-* Extend the resolver to report an error if a local variable is never used.
-  全局变量无法检测
 
 * Extend the resolver to associate a unique index for each local variable declared in a scope. When resolving a variable access, look up both the scope the variable is in and its index and store that. In the interpreter, use that to quickly access a variable by its index instead of using a map. 
 

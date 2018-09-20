@@ -326,11 +326,11 @@ class Resolver implements Expr.Visitor<Void>, Stmt.Visitor<Void> {
     }
 
     void resolve(List<Stmt> statements) {
-//        beginScope();
+        beginScope();
         for (Stmt statement : statements) {
             resolve(statement);
         }
-//        endScope();
+        endScope();
     }
 
     private void resolve(Expr expr) {

@@ -240,7 +240,8 @@ class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Void> {
         if (distance != null) {
             environment.assignAt(distance, expr.name, value);
         } else {
-            globals.assign(expr.name, value);
+//            globals.assign(expr.name, value);
+            environment.assignAt(0, expr.name, value);
         }
 
         environment.assign(expr.name, value);
@@ -364,7 +365,8 @@ class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Void> {
         if (distance != null) {
             return environment.getAt(distance, name.lexeme);
         } else {
-            return globals.get(name);
+//            return globals.get(name);
+            return environment.getAt(0, name.lexeme);
         }
     }
 
