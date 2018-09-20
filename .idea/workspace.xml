@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea9edd4-9f14-456a-8064-6460229ec18b" name="Default" comment="part one over ; &#10;do some exercises from now on">
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Resolver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Resolver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="333" column="5" lean-forward="true" selection-start-line="333" selection-start-column="5" selection-end-line="333" selection-end-column="5" />
+            <state relative-caret-position="458">
+              <caret line="324" column="42" lean-forward="true" selection-start-line="324" selection-start-column="42" selection-end-line="324" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#FunctionType#0;class#Resolver#0" />
@@ -99,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="198">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Interpreter#0;class#Interpreter#0" />
@@ -208,19 +205,19 @@
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Scanner.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/tool/GenerateAst.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Break.java" />
-        <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Parser.java" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/LoxClass.java" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/test.txt" />
         <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java" />
+        <option value="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
-    <option name="height" value="1048" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -453,7 +450,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1048" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901555" />
@@ -462,7 +459,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003658" side_tool="true" weight="0.32929516" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989027" weight="0.32901555" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49963424" visible="true" weight="0.16721672" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49963424" visible="true" weight="0.16740088" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32893288" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.32166302" />
@@ -567,7 +564,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java</url>
-          <line>94</line>
+          <line>93</line>
           <properties class="com.craftinginterpreters.lox.Interpreter" method="executeBlock">
             <option name="EMULATED" value="true" />
           </properties>
@@ -575,7 +572,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java</url>
-          <line>88</line>
+          <line>87</line>
           <properties class="com.craftinginterpreters.lox.Interpreter" method="visitFunctionStmt">
             <option name="EMULATED" value="true" />
           </properties>
@@ -591,7 +588,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java</url>
-          <line>262</line>
+          <line>261</line>
           <properties class="com.craftinginterpreters.lox.Interpreter" method="visitPrintStmt">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1166,41 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Interpreter#0;class#Interpreter#0" />
-            <element signature="method#interpret#0;class#Interpreter#0" />
-            <element signature="method#visitReturnStmt#0;class#Interpreter#0" />
-            <element signature="method#visitBlockStmt#0;class#Interpreter#0" />
-            <element signature="method#visitCallExpr#0;class#Interpreter#0" />
-            <element signature="method#visitFunctionStmt#0;class#Interpreter#0" />
-            <element signature="method#executeBlock#0;class#Interpreter#0" />
-            <element signature="method#visitIfStmt#0;class#Interpreter#0" />
-            <element signature="method#visitSuperExpr#0;class#Interpreter#0" />
-            <element signature="method#visitVarStmt#0;class#Interpreter#0" />
-            <element signature="method#visitClassStmt#0;class#Interpreter#0" />
-            <element signature="method#visitGetExpr#0;class#Interpreter#0" />
-            <element signature="method#visitSetExpr#0;class#Interpreter#0" />
-            <element signature="method#visitAssignExpr#0;class#Interpreter#0" />
-            <element signature="method#visitExpressionStmt#0;class#Interpreter#0" />
-            <element signature="method#visitPrintStmt#0;class#Interpreter#0" />
-            <element signature="method#visitLogicalExpr#0;class#Interpreter#0" />
-            <element signature="method#visitUnaryExpr#0;class#Interpreter#0" />
-            <element signature="method#visitBinaryExpr#0;class#Interpreter#0" />
-            <element signature="method#lookUpVariable#0;class#Interpreter#0" />
-            <element signature="method#isTruthy#0;class#Interpreter#0" />
-            <element signature="method#isEqual#0;class#Interpreter#0" />
-            <element signature="method#checkNumberOperand#0;class#Interpreter#0" />
-            <element signature="method#checkNumberOperands#0;class#Interpreter#0" />
-            <element signature="method#stringify#0;class#Interpreter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-616">
@@ -1264,8 +1226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Resolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="333" column="5" lean-forward="true" selection-start-line="333" selection-start-column="5" selection-end-line="333" selection-end-column="5" />
+        <state relative-caret-position="458">
+          <caret line="324" column="42" lean-forward="true" selection-start-line="324" selection-start-column="42" selection-end-line="324" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#FunctionType#0;class#Resolver#0" />
@@ -1294,6 +1256,41 @@
             <element signature="e#8586#8587#0" expanded="true" />
             <element signature="e#8625#8626#0" expanded="true" />
             <element signature="e#8658#8659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Interpreter#0;class#Interpreter#0" />
+            <element signature="method#interpret#0;class#Interpreter#0" />
+            <element signature="method#visitReturnStmt#0;class#Interpreter#0" />
+            <element signature="method#visitBlockStmt#0;class#Interpreter#0" />
+            <element signature="method#visitCallExpr#0;class#Interpreter#0" />
+            <element signature="method#visitFunctionStmt#0;class#Interpreter#0" />
+            <element signature="method#executeBlock#0;class#Interpreter#0" />
+            <element signature="method#visitIfStmt#0;class#Interpreter#0" />
+            <element signature="method#visitSuperExpr#0;class#Interpreter#0" />
+            <element signature="method#visitVarStmt#0;class#Interpreter#0" />
+            <element signature="method#visitClassStmt#0;class#Interpreter#0" />
+            <element signature="method#visitGetExpr#0;class#Interpreter#0" />
+            <element signature="method#visitSetExpr#0;class#Interpreter#0" />
+            <element signature="method#visitAssignExpr#0;class#Interpreter#0" />
+            <element signature="method#visitExpressionStmt#0;class#Interpreter#0" />
+            <element signature="method#visitPrintStmt#0;class#Interpreter#0" />
+            <element signature="method#visitLogicalExpr#0;class#Interpreter#0" />
+            <element signature="method#visitUnaryExpr#0;class#Interpreter#0" />
+            <element signature="method#visitBinaryExpr#0;class#Interpreter#0" />
+            <element signature="method#lookUpVariable#0;class#Interpreter#0" />
+            <element signature="method#isTruthy#0;class#Interpreter#0" />
+            <element signature="method#isEqual#0;class#Interpreter#0" />
+            <element signature="method#checkNumberOperand#0;class#Interpreter#0" />
+            <element signature="method#checkNumberOperands#0;class#Interpreter#0" />
+            <element signature="method#stringify#0;class#Interpreter#0" />
           </folding>
         </state>
       </provider>
