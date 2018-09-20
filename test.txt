@@ -1,9 +1,19 @@
-class Box {}
-
-fun notMethod(argument) {
-  print "called function with " + argument;
+class A {
+  method() {
+    print "A method";
+  }
 }
 
-var box = Box();
-box.function = notMethod;
-box.function("argument");
+class B < A {
+  method() {
+    print "B method";
+  }
+
+  test() {
+    super.method();
+  }
+}
+
+class C < B {}
+
+C().test();

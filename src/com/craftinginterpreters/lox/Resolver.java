@@ -189,7 +189,7 @@ class Resolver implements Expr.Visitor<Void>, Stmt.Visitor<Void> {
 
         if (stmt.superclass != null) {
             beginScope();
-            scopes.peek().put("super", VariableState.UNUSED);
+            scopes.peek().put("super", VariableState.USED);
         }
 
         beginScope();
@@ -316,7 +316,7 @@ class Resolver implements Expr.Visitor<Void>, Stmt.Visitor<Void> {
         for (int i = scopes.size() - 1; i >= 0; i--) {
             if (scopes.get(i).containsKey(name.lexeme)) {
                 interpreter.resolve(expr, scopes.size() - 1 - i);
-                System.out.println(scopes.size() - 1 - i);
+//                System.out.println(scopes.size() - 1 - i);
                 return;
             }
         }
@@ -326,11 +326,11 @@ class Resolver implements Expr.Visitor<Void>, Stmt.Visitor<Void> {
     }
 
     void resolve(List<Stmt> statements) {
-        beginScope();
+//        beginScope();
         for (Stmt statement : statements) {
             resolve(statement);
         }
-        endScope();
+//        endScope();
     }
 
     private void resolve(Expr expr) {
